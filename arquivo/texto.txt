@@ -1,0 +1,8 @@
+html
+c
+c#
+pascal
+java
+rust
+php
+typeScript

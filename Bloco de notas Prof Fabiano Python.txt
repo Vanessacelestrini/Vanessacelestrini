@@ -1,0 +1,45 @@
+TORRE DE HANOI
+pegar o numero 1 e passas para o B
+pegar o numero 2 e passar para o C
+pegar o numro 1 e passar para o C
+pegar o numero 3 e passar para o b
+pegar o 1 e passar par o A
+pegar o numer 2 e passar para o B
+pegar o numero 1 e passar para o B
+
+
+Exercicio 1
+Especificar um algortimo para calcular e exibir na tela a area de um triangulo de base B e altura H em que os valores de B e de H são fornecidos pelo usuario via teclado.
+
+S = B x H/2 
+
+INICIO
+DIGITE O VALOR DA BASE DO TRIANGULO ( b)
+DIGITE O VALOR DA ALTURA DO TRIANGULO ( h )
+CALCULAR A AREA
+s = B x H/2
+EXIBIR O VALOR 
+
+FIM
+
+Exercicio
+
+faça um programa que se a idade for maior que 50 anos , a mensagem seja: Fulano tem X anos e é experiente, se a idade for menor que 50 anos ,
+ a mensagem deve ser: Fulano tem x anos , está em treinamento 
+
+# Digite a idade
+
+idade = float(input("Digite sua idade"))
+
+# informe se tem 50 ou +
+
+if idade > 50:
+    print(f"Tem {idade} tem experiencia")
+
+else:
+      print(f"Tem {idade} está em treinamento") 
+
+
+"Elabore um script que solicite o nome de um aluno e duas notas."
+"Em seguida calcule e imprima a media e mostre se o aluno foi aprovado ou reprovado, Para estar aprovado a media tem de ser acima de 6,5"
+"Faca isso para 3 alunos"
