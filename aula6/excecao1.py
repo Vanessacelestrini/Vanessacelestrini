@@ -7,8 +7,8 @@ try:
     calculo = n1/n2
     print(calculo)
 
-except valueError:
-    print("Digite um valor numerio")
+except ValueError:
+    print("Digite um valor numerico")
 
 except ZeroDivisionError:
     print("Nao é possivel dividir zero")

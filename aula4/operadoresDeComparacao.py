@@ -1,9 +1,9 @@
 num1 = 1
 num2 = 2
 
-# 1 igual é atribuição
-# 2 iguais é Comparação
-# 3 iguais Alem de compara conteúdo ele compara o tipo
+# 1 igual = é atribuição
+# 2 iguais == é Comparação
+# 3 iguais === Alem de compara conteúdo ele compara o tipo
 
 if num1 == num2: # igualdade
     print("num1 é igual a num2")

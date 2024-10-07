@@ -1,7 +1,6 @@
 "Elabore um script que solicite o nome de um aluno e duas notas."
 "Em seguida calcule e imprima a media e mostre se o aluno foi aprovado ou reprovado, Para estar aprovado a media tem de ser acima de 6,5"
 "Faca isso para quantidade digitadas de  alunos" " pedir todos alunos e notas e no final fazer a listagem "
-
 alunos = []
 
 num_alunos = int(input("Digite o número de alunos: "))
@@ -24,6 +23,17 @@ for i in range(num_alunos):
     }
     
     alunos.append(aluno_info)
+    
+    for aluno in alunos:
+       print(f"{aluno['nome']}: Média: {aluno['media']} - {aluno['status']}")
 
-for aluno in alunos:
-    print(f"{aluno['nome']}: Média: {aluno['media']:.2f} - {aluno['status']}")
+
+
+
+
+
+#for aluno in alunos:
+ #  print(f"{aluno['nome']}: Média: {aluno['media']:.2f} - {aluno['status']}")
+
+   # for aluno in alunos:
+    #    print(aluno)['nome'],'(media:',aluno['media], ' - ',aluno['resultado],')')
